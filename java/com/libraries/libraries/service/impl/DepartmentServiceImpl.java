@@ -1,10 +1,9 @@
 package com.libraries.libraries.service.impl;
 
-import com.apihomework.apihomework.data.Employee;
-import com.apihomework.apihomework.exceptions.EmployeeNotFoundException;
-import com.apihomework.apihomework.service.DepartmentService;
-import com.apihomework.apihomework.service.EmployeeService;
 import com.libraries.libraries.data.Employee;
+import com.libraries.libraries.exceptions.EmployeeNotFoundException;
+import com.libraries.libraries.service.DepartmentService;
+import com.libraries.libraries.service.EmployeeService;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;

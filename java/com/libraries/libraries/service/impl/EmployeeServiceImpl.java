@@ -1,10 +1,10 @@
 package com.libraries.libraries.service.impl;
 
-import com.apihomework.apihomework.data.Employee;
-import com.apihomework.apihomework.exceptions.EmployeeExistsException;
-import com.apihomework.apihomework.exceptions.EmployeeInvalidNameException;
-import com.apihomework.apihomework.exceptions.EmployeeNotFoundException;
-import com.apihomework.apihomework.service.EmployeeService;
+import com.libraries.libraries.data.Employee;
+import com.libraries.libraries.exceptions.EmployeeExistsException;
+import com.libraries.libraries.exceptions.EmployeeInvalidNameException;
+import com.libraries.libraries.exceptions.EmployeeNotFoundException;
+import com.libraries.libraries.service.EmployeeService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 
@@ -13,7 +13,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static org.apache.commons.lang3.StringUtils.capitalize;
 import static org.apache.commons.lang3.StringUtils.isAlpha;
 
 @Service
