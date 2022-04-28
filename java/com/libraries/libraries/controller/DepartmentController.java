@@ -1,7 +1,7 @@
-package com.apihomework.apihomework.controller;
+package com.libraries.libraries.controller;
 
-import com.apihomework.apihomework.data.Employee;
-import com.apihomework.apihomework.service.DepartmentService;
+import com.libraries.libraries.data.Employee;
+import com.libraries.libraries.service.DepartmentService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
